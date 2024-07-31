@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
+</head>
+
+<body>
+    <div class="signup-container">
+        <form class="signup-form">
+            <center><h1>Sign-Up</h1></center>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <a href="index.html"><button type="submit" onclick="signup()">Sign Up</button></a>
+
+            <center><p id="passdmc"></p></center>
+
+            <center><p>Already have an account? <a href="Log-in.html">Log-in</a></p></center>
+        </form>
+    </div>
+    <script src="Sign-up.js"></script>
+    <script src="localStorage.js"></script>
+</body>
+</html> 

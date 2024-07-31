@@ -1,0 +1,56 @@
+.container {
+    background-color: #e8eaeb;
+    width: 80%;
+    left: 0;
+    height: 600px;
+    position: fixed;
+    top: 75px;
+    display: flex;
+    flex-direction: row;
+}
+.mainimg {
+    position: fixed;
+    height: 450px;
+    top: 100px;
+    left: 80px;
+    border: 3px solid;
+    border-radius: 35px;
+}
+.miniImg {
+    position: fixed;
+    top: 570px;
+    display: flex;
+    flex-direction: row;
+    left: 5px;
+}
+.miniImg img {
+    width: 60px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-left: 10px;
+    transition: width 0.4s ease;
+}
+.main img {
+    width: 40%;
+    margin-left: 8rem;
+}
+#i1:hover{
+    width: 63px;
+    cursor: pointer;
+}
+#i2:hover{
+    width: 63px;
+    cursor: pointer;
+}
+#i3:hover{
+    width: 63px;
+    cursor: pointer;
+}
+.info {
+    position: fixed;
+}
+.info p {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}

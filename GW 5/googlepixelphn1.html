@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoHub</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./phonepages.css">
+    <script src="https://kit.fontawesome.com/57925fd35f.js" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+    <nav>
+        <a href="./index.html"><img src="./images/TechnoHub.png" alt=""></a>
+        <ul> 
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="register">
+            <a href="./Log-in.html"><button class="Log-in" class="Sign-Log">Log-in</button></a>
+            <a href="./Sign-up.html"><button class="Sign-up" class="Sign-Log">Sign-up</button></a>
+        </div>
+    </nav>
+
+    <div class="bg">
+        <div class="main">
+            <img src="https://s3.zoommer.ge/zoommer-images/thumbs/0177587_google-pixel-7-5g-8128gb-lemongrass_550.jpeg" class="mainimg">
+        </div>
+        <div class="miniImg">
+            <img src="https://s3.zoommer.ge/zoommer-images/thumbs/0177587_google-pixel-7-5g-8128gb-lemongrass_550.jpeg" id="i1" onclick="i1()">
+            <img src="https://s3.zoommer.ge/zoommer-images/thumbs/0177588_google-pixel-7-5g-8128gb-lemongrass_550.jpeg" id="i2" onclick="i2()">
+            <img src="https://s3.zoommer.ge/zoommer-images/thumbs/0177589_google-pixel-7-5g-8128gb-lemongrass_550.jpeg" id="i3" onclick="i3()">
+        </div>
+        <div class="info">
+            <div class="txt1"><p>Screen Size: </p> <p style="margin-left: 150px;">6.3 Inches</p></div>
+            <div class="line1"></div>
+            <div class="txt2"><p>Refresh Rate: </p> <p style="margin-left: 150px; position: fixed; left: 755px ">90 Hz</p></div>
+            <div class="line2"></div>
+            <div class="txt3"><p>Screen Type: </p> <p style="margin-left: 100px; position: fixed; left: 810px;"> OLED</p></div>
+            <div class="line3"></div>
+            <div class="txt4"><p>Internal Memory: </p> <p style="margin-left: 100px; position: fixed; left: 800px">128 GB</p></div>
+            <div class="line4"></div>
+            <div class="txt5"><p>Color: </p> <p style="margin-left: 150px; position: fixed; left: 720px;">Lemongrass</p></div>
+            <div class="line5"></div>
+            <div class="addtocart-buy">
+                <button class="addtocart"><img src="./images/add-to-cart.png" alt="" id="cart"><p id="p1">Add To Cart</p></button>
+                <button class="buy"><img src="./images/payment-method.png" alt="" id="buy"><p id="p2">Buy Now</p></button>
+            </div>
+        </div> 
+    </div>
+    <script>
+        let mainimg = document.querySelector('.mainimg');
+        function i1() {
+            mainimg.src = 'https://s3.zoommer.ge/zoommer-images/thumbs/0177587_google-pixel-7-5g-8128gb-lemongrass_550.jpeg';
+        }
+        function i2() {
+            mainimg.src = 'https://s3.zoommer.ge/zoommer-images/thumbs/0177588_google-pixel-7-5g-8128gb-lemongrass_550.jpeg';
+        }
+        function i3() {
+            mainimg.src = 'https://s3.zoommer.ge/zoommer-images/thumbs/0177589_google-pixel-7-5g-8128gb-lemongrass_550.jpeg';
+        }
+    </script>
+</body>
+</html>

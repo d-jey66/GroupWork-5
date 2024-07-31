@@ -1,0 +1,165 @@
+.bg {
+    background-color: #e8eaeb;
+    width: 80%;
+    left: 0;
+    height: 600px;
+    position: fixed;
+    top: 75px;
+    display: flex;
+    flex-direction: row;
+}
+.mainimg {
+    position: fixed;
+    height: 450px;
+    top: 100px;
+    left: 80px;
+    border: 3px solid;
+    border-radius: 35px;
+}
+.miniImg {
+    position: fixed;
+    top: 570px;
+    display: flex;
+    flex-direction: row;
+    left: 185px;
+}
+.miniImg img {
+    width: 60px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-left: 10px;
+    transition: width 0.4s ease;
+}
+#i1:hover{
+    width: 63px;
+    cursor: pointer;
+}
+#i2:hover{
+    width: 63px;
+    cursor: pointer;
+}
+#i3:hover{
+    width: 63px;
+    cursor: pointer;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 130px;
+    left: 620px;
+    font-size: 19px;
+    gap: 15px;
+}
+.txt1 {
+    display: flex;
+    flex-direction: row;
+}
+.line1 {
+    position: fixed;
+    height: 3px;
+    top: 170px;
+    right: 550px;
+    width: 420px;
+    background-color: black;
+}
+.txt2{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 200px;
+}
+.line2 {
+    position: fixed;
+    height: 2px;
+    top: 240px;
+    right: 550px;
+    width: 420px;
+    background-color: black;
+}
+.txt3 {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 270px;
+}
+.line3 {
+    position: fixed;
+    height: 3px;
+    top: 310px;
+    right: 550px;
+    width: 420px;
+    background-color: black;
+}
+.txt4 {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 340px;
+}
+.line4{
+    position: fixed;
+    height: 2px;
+    top: 380px;
+    right: 550px;
+    width: 420px;
+    background-color: black;
+}
+.txt5 {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 410px;
+}
+.line5 {
+    position: fixed;
+    height: 3px;
+    top: 450px;
+    right: 550px;
+    width: 420px;
+    background-color: black;
+}
+.addtocart {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    top: 500px;
+    right: 770px;
+    background-color: #e8eaeb;
+}
+p {
+    font-weight: 500;
+}
+#p1 {
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#cart {
+    margin-top: 6px;
+    margin-left: 15px;
+}
+.buy {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    top: 500px;
+    right: 547px;
+    background-color: #e8eaeb;
+}
+#p2 {
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#buy {
+    margin-top: 6px;
+    margin-left: 15px;
+}
+button:hover {
+    cursor: pointer;
+}

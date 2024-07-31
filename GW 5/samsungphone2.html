@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoHub</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./phonepages.css">
+    <script src="https://kit.fontawesome.com/57925fd35f.js" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+    <nav>
+        <a href="./index.html"><img src="./images/TechnoHub.png" alt=""></a>
+        <ul> 
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="register">
+            <a href="./Log-in.html"><button class="Log-in" class="Sign-Log">Log-in</button></a>
+            <a href="./Sign-up.html"><button class="Sign-up" class="Sign-Log">Sign-up</button></a>
+        </div>
+    </nav>
+
+    <div class="bg">
+        <div class="main">
+            <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F4fc617b5-768b-44ff-bcbc-0e4c07ac0cd7_Thumb.jpeg&w=384&q=100" class="mainimg">
+        </div>
+        <div class="miniImg">
+            <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F4fc617b5-768b-44ff-bcbc-0e4c07ac0cd7_Thumb.jpeg&w=384&q=100" id="i1" onclick="i1()">
+            <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fa1600152-dcd7-43a5-85eb-5f814db4bf76_Thumb.jpeg&w=384&q=100" id="i2" onclick="i2()">
+            <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F07299a03-2aaf-47ea-a7cc-900e8753a830_Thumb.jpeg&w=384&q=100" id="i3" onclick="i3()">
+        </div>
+        <div class="info">
+            <div class="txt1"><p>Screen Size: </p> <p style="margin-left: 150px; position: fixed; left: 690px;">6.2,7.6 Inches</p></div>
+            <div class="line1"></div>
+            <div class="txt2"><p>Refresh Rate: </p> <p style="margin-left: 150px; position: fixed; left: 720px; ">120 Hz</p></div>
+            <div class="line2"></div>
+            <div class="txt3"><p>Screen Type: </p> <p style="margin-left: 100px; position: fixed; left: 690px;">Dynamic AMOLED 2X</p></div>
+            <div class="line3"></div>
+            <div class="txt4"><p>Internal Memory: </p> <p style="margin-left: 100px;">256 GB</p></div>
+            <div class="line4"></div>
+            <div class="txt5"><p>Color: </p> <p style="margin-left: 150px;">Phantom Black</p></div>
+            <div class="line5"></div>
+            <div class="addtocart-buy">
+                <button class="addtocart"><img src="./images/add-to-cart.png" alt="" id="cart"><p id="p1">Add To Cart</p></button>
+                <button class="buy"><img src="./images/payment-method.png" alt="" id="buy"><p id="p2">Buy Now</p></button>
+            </div>
+        </div> 
+    </div>
+    <script>
+        let mainimg = document.querySelector('.mainimg');
+        function i1() {
+            mainimg.src = 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F4fc617b5-768b-44ff-bcbc-0e4c07ac0cd7_Thumb.jpeg&w=384&q=100';
+        }
+        function i2() {
+            mainimg.src = 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fa1600152-dcd7-43a5-85eb-5f814db4bf76_Thumb.jpeg&w=384&q=100';
+        }
+        function i3() {
+            mainimg.src = 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F07299a03-2aaf-47ea-a7cc-900e8753a830_Thumb.jpeg&w=384&q=100';
+        }
+    </script>
+</body>
+</html>
